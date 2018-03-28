@@ -14,4 +14,3 @@ end
 def move(board,ind,char)
   board[ind]=char
 end
-
