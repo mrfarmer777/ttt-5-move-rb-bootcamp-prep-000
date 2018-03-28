@@ -11,6 +11,6 @@ def input_to_index(uin)
   uin.to_i-1
 end
 
-def move(board,ind,char)
+def move(board,ind,char="X")
   board[ind]=char
 end
